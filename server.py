@@ -11,7 +11,6 @@ from utils.message_formatter import recommend_message_formatter as rmf
 import database_control.load_recommend_stock_info as db_load
 import database_control.update_recommend_database as db_update
 import logging
-from datetime import datetime
 import configparser
 
 
