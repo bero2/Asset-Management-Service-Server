@@ -83,4 +83,6 @@ async def recommend(channel: str) -> Dict:
     return {}
 
 
-
+@app.get("/health")
+async def health() -> Dict:
+    return {"status": "OK"}
